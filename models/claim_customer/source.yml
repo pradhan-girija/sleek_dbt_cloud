@@ -1,0 +1,16 @@
+sources:
+  - name: landing
+    database: INSURANCESMART
+    schema: L1_LANDING
+
+    tables:
+      - name: claims
+        identifier: claims
+
+      - name: customers
+        identifier: customers
+
+      - name: policies
+        identifier: policies
+
+        
