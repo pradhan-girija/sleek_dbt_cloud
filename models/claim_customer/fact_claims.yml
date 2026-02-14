@@ -1,0 +1,7 @@
+models:
+  - name: customer_claims_fact
+    columns:
+      - name: claim_id
+        tests:
+          - not_null
+          - unique
